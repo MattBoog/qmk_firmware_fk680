@@ -37,7 +37,7 @@ led_config_t g_led_config = {
 
 }, {
     // LED Index to Flag
-    4, 4, 4, 0, 4, 0, 4, 4, 4, 4, 4, 4,        // Ctrl, GUI, Alt, light, Space, light,  RAlt, FN, Ctrl, Left, Down, Right
+    4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,        // Ctrl, GUI, Alt, light, Space, light,  RAlt, FN, Ctrl, Left, Down, Right
     4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,  // LShift, Z, X, C, V, B, N, M, ,, ., /, Shift, Up, Page Down
     4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,  // Capslock, A, S, D, F, G, H, J, K, L, ;, ', Enter, Page up
     4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,  // Tab, Q, W, E, R, T, Y, U, I, O, P, [, ], backslash , Home
