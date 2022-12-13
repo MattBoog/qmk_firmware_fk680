@@ -34,3 +34,17 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## This Fork
+
+For questions, contact me on Discord matthijsboog#5156
+
+The first time you flash this code press the reset button on the pcb twice. Then it will show up as a drive on your pc where you can paste the .uf2 file.
+
+After that, just hold escape while plugging it in or use the reset combination (fn + Lctrl).
+
+Be aware that this is a work in progress and has only been aimed at the "default" keymap for now. "via" should work as well, but that has to be tested again first. 
+
+To compile:
+Set this repo as your qmk location in qmk msys using "qmk setup -H <filepath>"
+Then type "qmk compile -kb zhaqian/fk680 -km default"
