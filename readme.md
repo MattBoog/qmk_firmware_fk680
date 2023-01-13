@@ -46,5 +46,11 @@ After that, just hold escape while plugging it in or use the reset combination (
 Be aware that this is a work in progress and has only been aimed at the "default" keymap for now. "via" should work as well, but that has to be tested again first. 
 
 To compile:
+
+Clone this repo with "git clone MattBoog/qmk_matt_fk680 --recurse-submodules --remote-submodules"
+
+Run "git submodule update --init"
+
 Set this repo as your qmk location in qmk msys using "qmk setup -H [filepath]"
+
 Then type "qmk compile -kb zhaqian/fk680 -km default"
