@@ -1,43 +1,14 @@
 {
-    "name": "ZQ68",
-    "vendorId": "0x00AA",
-    "productId": "0xAA0F",
+    "name": "FK680Pro",
+    "vendorId": "0xFEED",
+    "productId": "0x6060",
     "lighting": {
       "extends": "none",
       "keycodes": "qmk"
     },
     "matrix": { "rows": 5, "cols": 15 },
-    "customKeycodes": [
-        {
-          "name": "Radial\nButton",
-          "title": "Radial Controller Button in Windows 10",
-          "shortName": "Radial\nButton"
-        },
-        {
-          "name": "Radial\nLeft",
-          "title": "Radial Controller Counter Clockwise in Windows 10",
-          "shortName": "Radial\nLeft"
-        },
-        {
-          "name": "Radial\nRight",
-          "title": "Radial Controller Clockwise in Windows 10",
-          "shortName": "Radial\nRight"
-        },
-        {
-          "name": "Radial\nLeft\nHold",
-          "title": "Radial Controller Continue Counter Clockwise in Windows 10",
-          "shortName": "Radial\nLeftC"
-        },
-        {
-          "name": "Radial\nRight\nHold",
-          "title": "Radial Controller Continue Clockwise in Windows 10",
-          "shortName": "Radial\nRightC"
-        }
-    ],
+    
     "layouts": {
-        "labels": [
-            ["Encoder", "CLOSE", "OPEN"]
-        ],
         "keymap":[
             [
               {
@@ -64,9 +35,7 @@
                 "w": 2
               },
               "0,13",
-              "0,14\n\n\n0,0",
-              "0,14\n\n\n0,1",
-              "4,3\n\n\n0,1"
+              "0,14"
             ],
             [
               {
@@ -89,11 +58,7 @@
                 "w": 1.5
               },
               "1,13",
-              "1,14",
-              {
-                "x": 1
-              },
-              "4,4\n\n\n0,1"
+              "1,14"
             ],
             [
               {
