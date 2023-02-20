@@ -1,6 +1,6 @@
 {
     "name": "FK680Pro",
-    "vendorId": "0xFEED",
+    "vendorId": "0x8657",
     "productId": "0x6060",
     "lighting": {
       "extends": "none",
