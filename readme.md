@@ -43,7 +43,8 @@ The first time you flash this code press the reset button on the pcb twice. Then
 
 After that, just hold escape while plugging it in or use the reset combination (fn + Lctrl).
 
-Be aware that this is a work in progress and has only been aimed at the "default" keymap for now. "via" is working as well, just make sure to select "Use v2 definitions" before loading the .json. 
+Be aware that this is a work in progress and has mostly been aimed at the "default" keymap. 
+Update: "via" is working as well now, just make sure to select "Use v2 definitions" before loading the .json in the Design tab. 
 
 To compile:
 
